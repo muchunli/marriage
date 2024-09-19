@@ -11,5 +11,6 @@
 #### Workspace setup ####
 library(tidyverse)
 # [...UPDATE THIS...]
-
+all(duplicated(simulated_data$id) == FALSE)
+marriage_licenses_numeric <- is.numeric(simulated_data$marriage data)
 #### Test data ####
